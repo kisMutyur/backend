@@ -1,0 +1,1 @@
+"SELECT * from konyvek, mufajok.nev ORDER BY konyvek.kiadasi_ev ASC inner JOIN mufajok on konyvek.mufaj_id = mufajok.id;"
